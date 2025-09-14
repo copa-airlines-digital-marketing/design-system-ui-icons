@@ -1,0 +1,18 @@
+{
+  "name": "ui-icons-copa",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "build": "node build-sprite.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.4.1",
+  "devDependencies": {
+    "svgo": "^4.0.0",
+    "svgstore": "^3.0.1"
+  }
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+           background: beige;
+           width: 100vw;
+           height: 100vh; 
+           padding: 100px 100px;
+        }
+        .center {
+            width: 400px;
+            height: 400px;
+            background: aqua;
+            color: black;
+            display: grid;
+            place-items: center;
+            padding: 10px 10px;
+        }
+        .icon {
+            fill: red;
+            border: 1px solid red;
+        }
+    </style>
+</head>
+<body>
+    <div class="center">
+        <svg class="icon" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+            <use href="public/sprite.svg#baby" xlink:href="./sprite.svg#star"></use>
+        </svg>
+    </div>
+</body>
+</html>
